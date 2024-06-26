@@ -1,27 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
-body {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-}
 
-.login_contenedor {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 3rem;
-}
 
-.form-inputs {
+
+.login-section {
     display: flex;
     flex-direction: column;
 }
 
-.form-register {
-    background-color: #dd2e2e;
+.rectangulo-azul {
+    width: 100%;
+    height: calc(100vh - 50vh);
+    background-color: #1166d4;
+}
+
+.rectangulo-azul-claro {
+    width: 100%;
+    height: calc(100vh - 50vh);
+    background-color: #84b2ee;
+}
+
+.login-contenedor {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    padding: 2rem;
+}
+
+.form_login-inputs {
+    display: flex;
+    flex-direction: column;
 }
