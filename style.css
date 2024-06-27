@@ -58,7 +58,7 @@
 }
 
 .form_login-inputs > input {
-    padding: 11px;
+    padding: 10px;
     border: none;
     background-color: #fff3f3;
     border-radius: 10px;
@@ -70,6 +70,10 @@
     border: none;
     background-color: #fff3f3;
     border-radius: 10px;
+}
+
+.form-login-password i {
+    cursor: pointer;
 }
 
 .form-login-password input {
